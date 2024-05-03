@@ -5,15 +5,15 @@
 
 
 class Car {
-    constructor(brand, model) {
-      this.brand = brand;
-      this.model = model;
-    }
-  
-    displayInfo() {
-      console.log(`This is a ${this.brand} ${this.model}.`);
-    }
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
   }
-  
-  const myCar = new Car("Tesla", "Model S");
-  myCar.displayInfo(); // Output: This is a Tesla Model S.
+
+  displayInfo() {
+    console.log(`This is a ${this.brand} ${this.model}.`);
+  }
+}
+
+const myCar = new Car("Tesla", "Model S");
+myCar.displayInfo(); // Output: This is a Tesla Model S.
